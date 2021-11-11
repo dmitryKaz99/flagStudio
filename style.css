@@ -1,0 +1,515 @@
+/* Default settings Start */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* Default settings End */
+
+/* Body */
+body {
+    margin: 0;
+   
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    color: #000;
+}
+
+/* Page */
+.page {
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 10px;
+}
+
+/* Main
+=============== */
+.main {
+    width: 100%;
+    height: 510px;
+    background-color:#9e9e9e14;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+/* Information
+=============== */
+.information {
+    width: 30%;
+    margin-right: 5px;
+    overflow-y: scroll;
+    transition: box-shadow .4s linear;
+}
+
+/* Scroll Start */
+.information::-webkit-scrollbar {
+    width: 0;
+}
+/* Scroll End */
+
+.information:hover {
+    box-shadow: 0px 0px 15px #06060647;
+}
+
+/* Country
+=============== */
+.information-country {
+    display: flex;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.country {
+    width: 50%;
+    padding: 7px 0;
+    font-size: 15px;
+    color: grey;  
+    background-color: #fff;
+
+    border-radius: 2px;  
+    border: 2px solid #8080803b;
+}
+
+/* Js Start*/
+.country-active {
+    color: #fff;
+    background-color: orange;
+    border: 2px solid orange;
+
+    transition: color .2s linear, background-color .2s linear,
+    border .2s linear;
+}
+/* Js End*/
+
+/* Select/Item
+=============== */
+.select-name_country {
+    display: none;
+}
+
+.select-active {
+    display: block;
+}
+
+.item {
+    padding:  0 25px;
+    border-bottom: 1px solid #8080803b;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+
+    cursor: pointer;
+}
+
+/* Js Start */
+.flex-active .item-arrow {
+    transform: rotate(135deg);  
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+}
+
+.flex-active .item-name {
+    color: orange;
+}
+/* Js End */
+
+.item-flex:hover .item-arrow,
+.item-flex:hover .item-name,
+.about-name:hover {
+    opacity: 1;
+}
+
+/* Name(item) */
+.item-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #31319f;
+    opacity: .85;
+
+    transition: color .2s linear, opacity .2s linear;
+}
+
+/* Arrow(item) */
+.item-arrow {
+    width: 9px;
+    height: 9px;
+    border-bottom: 3px solid #31319f;
+    border-left: 3px solid #31319f;
+    transform: rotate(315deg);
+    opacity: .85;
+
+    transition: transform .2s linear, border-bottom .2s linear,
+    border-left .2s linear, opacity .2s linear;
+}
+
+/* About 
+=============== */
+.about {
+    display: none;
+}
+
+.about-margin {
+    margin-top: 30px;
+}
+
+/* Js Start */
+.about-active {
+    display: block;
+}/* Js End */
+
+.about-name{
+    display: block;
+    margin-bottom: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #31319f;
+    opacity: .85;
+
+    transition: opacity .2s linear;
+}
+
+.about-author {
+    color: #000;
+    margin-bottom: 9px;
+
+    cursor: default;
+}
+
+/* Tel(about) */
+.about-tel {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.about-tel a:last-child{
+    margin-left: 20px;
+}
+
+/* Email(about) */
+.about-email {
+    color: #03a9f4;
+    display: block;
+    margin-bottom: 9px;
+}
+
+.about-email,
+.about-tel a {
+    text-decoration: underline rgba(0, 0, 0, 0);
+    transition: text-decoration-color .2s linear;
+}
+.about-email:hover{
+    text-decoration-color: #03a9f4;
+}
+
+.about-tel a:hover {
+    text-decoration-color: #000;
+}
+
+.about-email:active,
+.about-tel a:active {
+    opacity: .75;
+}
+
+/* MAP
+=============== */
+.map {
+    width: 70%;
+    transition: box-shadow .4s linear;
+}
+
+.map:hover {
+    box-shadow: 0px 0px 15px #06060647;
+}
+
+/* Map-effects */
+.map-about_orange {
+    font-size: 14px;
+    color: orange;
+    opacity: 1;
+
+    margin-bottom: 9px;
+    cursor: default;
+}
+
+.map-about_white,
+.map-about_white a {
+    color: #fff;
+    margin-bottom: 0;
+} 
+
+.map-about_white a:hover {
+    text-decoration-color: #fff;
+}
+
+.map-hint {   
+    background-color: #31319f;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+    cursor: default;
+}
+
+.map-hint span:first-child {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: orange;
+    
+    margin-bottom: 5px;
+}
+.map-hint span:last-child {
+    font-size: 9px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Map-settings */
+.ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
+    background-color: #31319f; 
+
+    margin: 0 !important;
+    padding-right: 40px !important;
+    padding-left: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 6px !important;
+}
+
+.ymaps-2-1-79-balloon__tail:after {
+    background-color: #31319f !important; 
+}
+
+.ymaps-2-1-79-balloon__close-button {
+    filter: invert(1);
+
+    opacity: 1 !important;
+    margin-right: 6px !important;
+}
+
+.ymaps-2-1-79-balloon__close-button:active{
+    opacity: .75 !important;
+}
+
+.ymaps-2-1-79-map ymaps, .ymaps-2-1-79-map ymaps:after, .ymaps-2-1-79-map ymaps:before {
+    font-size: 9px;
+
+    border-radius: 5px;
+    padding: 0 !important;
+}
+
+/* Map-color */
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+}
+
+/* Media
+=============== */
+
+/* 990 */
+@media (max-width: 990px) {
+    /* Body */
+    body {
+        font-size: 12px;
+    }
+
+    /* About 
+    =============== */
+    .about-name {
+        font-size: 13px;
+    }
+
+    /* Tel(about) */
+    .about-tel {
+        flex-direction: column;
+    }
+
+    .about-tel a:last-child {
+        margin-left: 0;
+    }
+}
+
+/* 770 */
+@media (max-width: 770px) {
+    /* Select/Item
+    =============== */
+    .item {
+        text-align: center;
+    }
+}
+
+/* 660 */
+@media (max-width: 660px) {
+    /* Body */
+    body {
+        font-size: 10px;
+    }
+
+    /* Country
+    =============== */
+    .country {
+        font-size: 13px;
+    }
+
+    /* Select/Item
+    =============== */
+
+    .item-name {
+        font-size: 13px;
+    }
+
+    .item-arrow {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+/* 575 */
+@media (max-width: 575px) {
+    /* Body */
+    body {
+        font-size: 8px;
+    }
+
+    /* Main
+    =============== */
+    .main {
+        height: 350px;
+    }
+
+    /* Country
+    =============== */
+    .country {
+        font-size: 11px;
+    }
+
+    /* Select/Item
+    =============== */
+    .item-flex {
+        margin: 15px 0;
+    }
+
+    .item {
+        padding: 0 15px;
+    }
+
+    .item-name {
+        font-size: 11px;
+    }
+
+    .item-arrow {
+        width: 5px;
+        height: 5px;
+    }
+
+    /* About 
+    =============== */
+    .about-name {
+        font-size: 11px;
+        margin-bottom: 9px;
+    }
+   
+    /* MAP
+    =============== */
+    .map-about_orange {
+        margin-bottom: 5px;
+    }
+
+    .ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
+        padding-right: 20px !important;
+        padding-left: 10px !important;
+        padding-top: 10px !important;
+        padding-bottom: 1px !important;
+    }
+}
+
+/* 425 */
+@media (max-width: 425px) {
+    /* Country
+    =============== */
+    .country {
+        font-size: 9px;
+    }
+
+    /* Select/Item
+    =============== */
+    .item {
+        padding: 0 7px;
+    }
+
+    /* About 
+    =============== */
+    .about-name {
+        font-size: 9px;
+    }
+
+    .about-email {
+        margin-bottom: 5px;
+    }
+
+    /* MAP
+    =============== */
+    .map-about_orange {
+        font-size: 11px;
+    }
+
+    .ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
+        padding: 0 !important;
+        padding-left: 15px !important;
+        padding-top: 5px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+/* 350 */
+@media (max-width: 350px) {
+    /* Country
+    =============== */
+    .country {
+        font-size: 7px;
+        font-weight: bold;
+    }
+
+    /* Select/Item
+    =============== */
+    .item {
+        padding: 0 3px;
+    }
+}
