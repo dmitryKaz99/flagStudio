@@ -1,2 +1,2 @@
-# flagStudio
-my site(test flag-studio)
+# тестовое задание, flagStudio
+Создание сайта, с использованием YandexMaps API
