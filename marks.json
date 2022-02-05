@@ -1,0 +1,174 @@
+{
+  "marksRU": [
+    {
+      "latitude": 55.75922734,
+      "longitude": 37.5988758,
+      "id": "mscOne",
+      "city": "Москва",
+      "street": "Тверской бульв., 7",
+      "office": "Офис МОСКВА",
+      "agent": "Петров Алексей Антонович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 55.75305616,
+      "longitude": 37.63143782,
+      "id": "mscTwo",
+      "city": "Москва",
+      "street": "ул. Варка, 9",
+      "office": "Офис МОСКВА ЦЕНТР",
+      "agent": "Антонов Юрий Николаевич",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 56.83854743,
+      "longitude": 60.59389357,
+      "id": "ekbOne",
+      "city": "Екатеринбург",
+      "street": "ул. Вайнера, 4",
+      "office": "Офис ЕКАТЕРИНБУРГ",
+      "agent": "Петров Алексей Антонович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 56.82986091,
+      "longitude": 60.62291507,
+      "id": "ekbTwo",
+      "city": "Екатеринбург",
+      "street": "ул. Куйбышева, 97",
+      "office": "Офис ЕКАТЕРИНБУРГ ЦЕНТР",
+      "agent": "Ситников Дмитрий Андреевич",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 54.73962884,
+      "longitude": 55.96889619,
+      "id": "ufaOne",
+      "city": "Уфа",
+      "street": "бульв. Ибрагимова, 86",
+      "office": "Офис УФА",
+      "agent": "Терентьева Вероника Владиславовна",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 56.03409679,
+      "longitude": 92.88591985,
+      "id": "krskOne",
+      "city": "Красноярск",
+      "street": "ул. Мужества, 8",
+      "office": "Офис КРАСНОЯРСК",
+      "agent": "Легушкин Иван Сергеевич",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 69.34619018,
+      "longitude": 88.21612958,
+      "id": "nrskOne",
+      "city": "Норильск",
+      "street": "ул. Ломоносова, 5",
+      "office": "Офис НОРИЛЬСК",
+      "agent": "Зубенко Михаил Петрович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    }
+  ],
+  "marksBLR": [
+    {
+      "latitude": 53.90736892,
+      "longitude": 27.54191635,
+      "id": "mnskOne",
+      "city": "Минск",
+      "street": "ул. Мельникайте, 9",
+      "office": "Офис МИНСК",
+      "agent": "Токарева София Максимовна",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 53.88736416,
+      "longitude": 27.57485305,
+      "id": "mnskTwo",
+      "city": "Минск",
+      "street": "ул. Аранская, 13",
+      "office": "Офис МИНСК ЦЕНТР",
+      "agent": "Адриченко Марк Антонович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 55.48663752,
+      "longitude": 28.78526198,
+      "id": "plskOne",
+      "city": "Полоцк",
+      "street": "ул. Войкова, 27",
+      "office": "Офис ПОЛОЦК",
+      "agent": "Птушкина Алена Владимировна",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 55.48633231,
+      "longitude": 28.76677571,
+      "id": "plskTwo",
+      "city": "Полоцк",
+      "street": "Замковый пр-д, 2",
+      "office": "Офис ПОЛОЦК ЦЕНТР",
+      "agent": "Ионова Анна Дмитриевна",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 55.18349837,
+      "longitude": 30.22964289,
+      "id": "vbskOne",
+      "city": "Витебск",
+      "street": "Смаленская вул., 55А",
+      "office": "Офис ВИТЕБСК",
+      "agent": "Вовк Матвей Константинович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 52.09632563,
+      "longitude": 23.7041841,
+      "id": "brskOne",
+      "city": "Брест",
+      "street": "ул. Папанина, 8",
+      "office": "Офис БРЕСТ",
+      "agent": "Цимаковский Александр Викторович",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    },
+    {
+      "latitude": 53.67880282,
+      "longitude": 23.83598013,
+      "id": "grdnoOne",
+      "city": "Гродно",
+      "street": "ул. Кирова, 26",
+      "office": "Офис ГРОДНО",
+      "agent": "Берсенев Никита Сергеевич",
+      "telOne": "+7 (999) 222 22 22",
+      "telTwo": "+7 (999) 222 22 22",
+      "hrefOrEmail": "useraname@flagstudio.ru"
+    }
+  ]
+}
